@@ -10,36 +10,38 @@
 
 <body>
 
+
   <header>
 
-    <img src="img/logos/a2z.png" height="100" id="logo" alt="logo" title="Created by TAFE IT Ultimo. Copyright free." />
+    <div class="inner-wrapper header-container">
+      <img src="img/logos/a2z.png" height="100" id="logo" alt="A2Z Recycling"
+        title="Created by TAFE IT Ultimo. Copyright free." />
 
-    <div id="burgerbtn" onclick="openNav()">&#9776;</div>
+      <div id="burgerbtn" onclick="openNav()">&#9776;</div>
 
-    <nav id="navig" class="overlay-burger">
-      <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
-      <div id="overlay-content">
-        <ul>
-          <li>
-            <a href="index.html" id="current-page" class="nav-button">Home</a>
-          </li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="industrial.html">Industrial</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Save Planet</a>
-            <div class="dropdown-content">
-              <a href="#">Plastic</a>
-              <a href="#">Glass</a>
-              <a href="#">Papper</a>
-              <a href="#">More</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav id="navig" class="overlay-burger">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <div id="overlay-content">
+          <ul>
+            <li>
+              <a href="index.html" id="current-page" class="nav-button">Home</a>
+            </li>
+            <li><a href="about.html">About us</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Save Planet</a>
+              <div class="dropdown-content">
+                <a href="#">Plastic</a>
+                <a href="#">Glass</a>
+                <a href="#">Papper</a>
+                <a href="#">More</a>
+              </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-
+    </div>
   </header>
 
   <main id="swup" class="transition-fade">
@@ -54,7 +56,7 @@
 
     <!-- /* --------- Line start-------------*/ -->
 
-    <div class="line">
+    <div class="line inner-wrapper">
       <hr>
     </div>
 
@@ -63,13 +65,15 @@
 
     <!-- /* --------- Start Slider-Top------------- */ -->
 
-    <div class="section group">
+    <div class="section inner-wrapper">
       <div class="col span_1_of_2">
-        <h3> Welcome to A2Z Recyclers - an international organization dedicated to environmental advocacy and planetary
+        <h3> Welcome to A2Z Recyclers - an international organization dedicated to environmental advocacy and
+          planetary
           cleanup.</h3>
         <h3> Our Vision:</h3>
         <p>Our vision is to promote recycling habits in every household and business organization. We believe that by
-          working together, we can make a significant impact on the environment and create a sustainable future for all.
+          working together, we can make a significant impact on the environment and create a sustainable future for
+          all.
         </p>
         <h3> Our Locations:</h3>
         <p>With recycling facilities in various cities, including Sydney and NSW, we are committed to making recycling
@@ -80,18 +84,21 @@
       <div class="col span_1_of_2">
         <div class="slideshow-container">
           <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img/pexels-rijan-hamidovic-2193300.jpeg" height="420" style="width: 390px;" alt="Rijan Hamidovic: https://www.pexels.com/ru-ru/photo/2193300/">
+            
+            <img src="img/pexels-rijan-hamidovic-2193300.jpeg" height="420" style="width: 390px;"
+              alt="Rijan Hamidovic: https://www.pexels.com/ru-ru/photo/2193300/">
             <div class="text">Sydney, Australia</div>
           </div>
           <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img/pexels-filippo-bergamaschi-2767739 Large.jpeg" height="420" style="width: 390px;" alt="Szymon Shields: https://www.pexels.com/ru-ru/photo/14872685/">
+            
+            <img src="img/pexels-filippo-bergamaschi-2767739Large.jpeg" height="420" style="width: 390px;"
+              alt="Szymon Shields: https://www.pexels.com/ru-ru/photo/14872685/">
             <div class="text">New York, USA</div>
           </div>
           <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img/pexels-szymon-shields-14872685 Large.jpeg" height="420" style="width: 390px;" alt="Szymon Shields: https://www.pexels.com/ru-ru/photo/14872685/">
+            
+            <img src="img/pexels-szymon-shields-14872685Large.jpeg" height="420" style="width: 390px;"
+              alt="Szymon Shields: https://www.pexels.com/ru-ru/photo/14872685/">
             <div class="text">London, Ebgland</div>
           </div>
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -112,56 +119,61 @@
 
     <!-- /* --------- Line start-------------*/ -->
 
-    <div class="line">
+    <div class="line inner-wrapper">
       <hr>
     </div>
 
     <!-- /* --------- Line end-------------*/ -->
 
-    <section class="section-1">
+    <section>
 
-      <div class="section group">
-        <div class="col span_1_of_4" class="recycling-type">
+      <div class="section inner-wrapper">
+        <div class="span_1_of_4 recycling-type">
           <div class="image">
             <img src="img/AdobeStock_42738.jpg" alt="Plastic Recycling">
           </div>
-          <div class="description"><strong>Plastic Recycling:</strong> At A2Z Recyclers, we specialize in recycling
+          <div class="description">
+            <h4>Plastic Recycling:</h4> 
+            <p>At A2Z Recyclers, we specialize in recycling
             various types of plastic waste. For example, plastic bottles can be transformed into new plastic products,
             reducing the environmental impact of plastic pollution.
             </p>
           </div>
         </div>
-        <div class="col span_1_of_4" class="recycling-type">
+        <div class="span_1_of_4 recycling-type">
           <div class="image">
             <img src="img/AdobeStock_021.jpg" alt="Glass Recycling">
           </div>
           <div class="description">
-            <p>
-              <strong>Glass Recycling:</strong> Glass waste is a valuable resource. Our glass recycling efforts involve
+            
+              <h4>Glass Recycling:</h4>
+              <p> Glass waste is a valuable resource. Our glass recycling efforts
+              involve
               transforming glass jars and bottles into new glass products, conserving resources and preventing glass
               from ending up in landfills.
             </p>
           </div>
         </div>
-        <div class="col span_1_of_4" class="recycling-type">
+        <div class="span_1_of_4 recycling-type">
           <div class="image">
             <img src="img/AdobeStock_427383021.jpg" alt="Paper Recycling">
           </div>
           <div class="description">
-            <p>
-              <strong>Paper Recycling:</strong> Paper is one of the most commonly recycled materials. Newspapers and
+            
+              <h4>Paper Recycling:</h4> <p>Paper is one of the most commonly recycled materials. Newspapers and
               cardboard, for instance, can be recycled to create new paper products, reducing the need for fresh paper
               production.
             </p>
           </div>
         </div>
-        <div class="col span_1_of_4" class="recycling-type">
+        <div class="span_1_of_4 recycling-type">
           <div class="image">
             <img src="img/AdobeStock_427383.jpg" alt="Metal">
           </div>
           <div class="description">
-            <p>
-              <strong>Electronic Waste Recycling:</strong> In today's digital world, electronic waste is a growing
+
+              <h4>Electronic Waste Recycling:</h4> 
+              <p>In today's digital world, electronic waste is a growing
               concern. We responsibly handle the recycling of electronic devices, ensuring that electronic waste is
               disposed of properly and not harming the environment.
             </p>
@@ -174,14 +186,14 @@
 
     <!-- /* --------- Line start-------------*/ -->
 
-    <div class="line">
+    <div class="line inner-wrapper">
       <hr>
     </div>
 
     <!-- /* --------- Line end-------------*/ -->
 
-    <section class="section-2">
-      <div class="section group">
+    <section>
+      <div class="section inner-wrapper">
         <div class="col span_1_of_2">
           <p>“Improving operations through Gelos products & services”</p>
           <input id="btn-read" type="submit" value="Read More">
@@ -200,7 +212,7 @@
               <label for="country">Country</label>
               <select id="country" name="country">
                 <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
                 <option value="usa">USA</option>
               </select>
 
@@ -221,30 +233,35 @@
 
 
   <footer>
-    <ul>
-      <li>&copy; Sorrento Co 2020-2023. <br />All Rights Reserved</li>
+    <ul class="footer-list">
+      <li>&copy; A2Z Recyclers 2023 
+      </li>
       <li><a href="privacy.html">Privacy Policy</a></li>
-      <li><a href="email.php">email</a></li>
+      <li><a href="email.php">Email</a></li>
+    </ul>
+      <ul>
+        <li>
+          <a href="https://www.twitter.com/"><img src="img/twitter_small.png" width="25" height="25" alt="twitter icon"
+              title="send us tweets" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><img src="img/instagram_small.png" width="25" height="25"
+              alt="instagram icon" title="send us tweets" /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><img src="img/facebook_small.png" width="25" height="25" alt="facebook icon"
+              title="follow us on Facebook" /></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/"><img src="img/youtube-variation_small.png" width="25" height="25"
+              alt="youtube icon" title="watch us on Youtube" /></a>
+        </li>
 
-      <li>
-        <a href="https://www.twitter.com/"><img src="img/twitter_small.png" width="25" height="25" alt="twitter icon"
-            title="send us tweets" /></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/"><img src="img/instagram_small.png" width="25" height="25"
-            alt="instagram icon" title="send us tweets" /></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/"><img src="img/facebook_small.png" width="25" height="25" alt="facebook icon"
-            title="follow us on Facebook" /></a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/"><img src="img/youtube-variation_small.png" width="25" height="25"
-            alt="youtube icon" title="watch us on Youtube" /></a>
-      </li>
+      
     </ul>
   </footer>
-  </div>
+
+
   <script>
 
     function openNav() {

@@ -10,42 +10,35 @@
 
   <header>
 
-    <img
-          src="img/logos/a2z.png"
-          height="100"
-          id="logo"
-          alt="logo"
-          title="Created by TAFE IT Ultimo. Copyright free."
-        />
+    <div class="inner-wrapper header-container">
+      <img src="img/logos/a2z.png" height="100" id="logo" alt="A2Z Recycling"
+        title="Created by TAFE IT Ultimo. Copyright free." />
 
-    <div id="burgerbtn" onclick="openNav()">&#9776;</div>
+      <div id="burgerbtn" onclick="openNav()">&#9776;</div>
 
-        <nav id="navig" class="overlay-burger">
-            <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
-            <div id="overlay-content">
-              <ul>
-                <li>
-                  <a href="index.html"  class="nav-button"
-                    >Home</a
-                  >
-                </li>
-                <li><a href="about.html">About us</a></li>
-		<li><a href="industrial.html">Industrial</a></li>
-		<li><a href="contact.html" id="current-page">Contact</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Save Planet</a>
-      <div class="dropdown-content">
-        <a href="#">Plastic</a>
-        <a href="#">Glass</a>
-        <a href="#">Papper</a>
-        <a href="#">More</a>
-      </div>
-    </li>
-              </ul>
-            </div>
-          </nav>
-    
+      <nav id="navig" class="overlay-burger">
+        <a href="javascript:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+        <div id="overlay-content">
+          <ul>
+            <li>
+              <a href="index.html"  class="nav-button">Home</a>
+            </li>
+            <li><a href="about.html">About us</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Save Planet</a>
+              <div class="dropdown-content">
+                <a href="#">Plastic</a>
+                <a href="#">Glass</a>
+                <a href="#">Papper</a>
+                <a href="#">More</a>
+              </div>
+            </li>
+            <li><a id="current-page" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
+    </div>
   </header>
 
   <main id="swup" class="transition-fade">
@@ -55,19 +48,17 @@
   
   <h2>Contact Us</h2>
 
-  <h3>Locations</h3>
-
   <button class="accordion">Sydney</button>
   <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
 
-<button class="accordion">Gold Cost</button>
+<button class="accordion">Gold Coast</button>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
-<button class="accordion">Cerns</button>
+<button class="accordion">Cairns</button>
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
@@ -80,7 +71,7 @@
   
    <!-- /* --------- Line start-------------*/ -->
 
-   <div class="line">
+   <div class="line inner-wrapper">
     <hr>
   </div>
 
@@ -89,7 +80,7 @@
 
   <!-- /* --------- Section Map Start------------- */ -->
 
-  <section class="section-contact-map-form">
+  <section class="inner-wrapper">
     <div class="map">
     
       <div id="googleMap" style="width:100%;">
@@ -113,7 +104,7 @@
             <label for="country">Country</label>
             <select id="country" name="country">
               <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
+              <option value="uk">UK</option>
               <option value="usa">USA</option>
             </select>
         
@@ -130,68 +121,41 @@
   
   <!-- /* --------- Section Map ENd-------------*/ -->
 
-   <!-- /* --------- Line start-------------*/ -->
-
-   <div class="line">
-    <hr>
-  </div>
-
-  <!-- /* --------- Line end-------------*/ -->
-
-
   
 
 </main>
 
 
+
 <footer>
-  <ul>
-    <li>&copy; Sorrento Co 2020-2023. <br />All Rights Reserved</li>
+  <ul class="footer-list">
+    <li>&copy; A2Z Recyclers 2023 
+    </li>
     <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="email.php">email</a></li>
-    
-    <li>
-      <a href="https://www.twitter.com/"
-        ><img
-          src="img/twitter_small.png"
-          width="25"
-          height="25"
-          alt="twitter icon"
-          title="send us tweets"
-      /></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/"
-        ><img
-          src="img/instagram_small.png"
-          width="25"
-          height="25"
-          alt="instagram icon"
-          title="send us tweets"
-      /></a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/"
-        ><img
-          src="img/facebook_small.png"
-          width="25"
-          height="25"
-          alt="facebook icon"
-          title="follow us on Facebook"
-      /></a>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/"
-        ><img
-          src="img/youtube-variation_small.png"
-          width="25"
-          height="25"
-          alt="youtube icon"
-          title="watch us on Youtube"
-      /></a>
-    </li>
+    <li><a href="email.php">Email</a></li>
+
+    <ul>
+      <li>
+        <a href="https://www.twitter.com/"><img src="img/twitter_small.png" width="25" height="25" alt="twitter icon"
+            title="send us tweets" /></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/"><img src="img/instagram_small.png" width="25" height="25"
+            alt="instagram icon" title="send us tweets" /></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/"><img src="img/facebook_small.png" width="25" height="25" alt="facebook icon"
+            title="follow us on Facebook" /></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/"><img src="img/youtube-variation_small.png" width="25" height="25"
+            alt="youtube icon" title="watch us on Youtube" /></a>
+      </li>
+
+    </ul>
   </ul>
 </footer>
+
 </div>
 <script>
 
